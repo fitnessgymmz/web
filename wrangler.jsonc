@@ -1,0 +1,17 @@
+{
+  // Konfigurace pro Cloudflare Workers
+  "name": "fitness-gym-mz",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "DATA",
+      // ⬇️ SEM VLOŽ ID KV ÚLOŽIŠTĚ Z CLOUDFLARU (krok 3 v návodu)
+      "id": "SEM_VLOZ_ID"
+    }
+  ],
+  "observability": { "enabled": true }
+}
