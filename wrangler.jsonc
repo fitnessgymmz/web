@@ -10,7 +10,7 @@
     {
       "binding": "DATA",
       // ⬇️ SEM VLOŽ ID KV ÚLOŽIŠTĚ Z CLOUDFLARU (krok 3 v návodu)
-      "id": "SEM_VLOZ_ID"
+      "id": "5e9841b15d0d42359a893917a0b3a703"
     }
   ],
   "observability": { "enabled": true }
